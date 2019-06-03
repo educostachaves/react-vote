@@ -8,6 +8,10 @@ Projects built with Create-React-App include support for ES6 syntax, as well as 
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Install all dependencies of the project.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br>
