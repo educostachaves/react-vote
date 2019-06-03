@@ -4,15 +4,19 @@ import VoteTextInput from './VoteTextInput';
 
 const Header = ({ addVote }) => (
   <header className="header">
-    <h1>Votes</h1>
-    <VoteTextInput
-      onSave={(text) => {
-        if (text.length !== 0) {
-          addVote(text)
-        }
-      }}
-      placeholder="For who is your vote?"
-    />
+    <div className="container">
+      <div className="col-sm-12">
+        <h1 className="text-center">Votes</h1>
+        <VoteTextInput
+          onSave={(text) => {
+            if (text.length !== 0) {
+              addVote(text)
+            }
+          }}
+          placeholder="For who is your vote?"
+        />
+      </div>
+    </div>
   </header>
 );
 

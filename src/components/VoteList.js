@@ -4,12 +4,12 @@ import VoteItem from './VoteItem';
 
 const VoteList = ({ votes, actions }) => {
   return (
-    <div>
-      <ul className="vote-list">
+    <div className="container">
+      <div class="row">
         {votes.map(vote =>
           <VoteItem key={vote.id} vote={vote} {...actions} />
         )}
-      </ul>
+      </div>
     </div>
   );
 };

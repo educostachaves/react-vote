@@ -3,9 +3,13 @@ import Header from '../containers/Header';
 import MainSection from '../containers/MainSection';
 
 const App = () => (
-  <section>
-    <Header />
-    <MainSection />
+  <section className="container">
+    <div className="row">
+      <div className="col-md-4">
+        <Header />
+        <MainSection />
+      </div>
+    </div>
   </section>
 );
 

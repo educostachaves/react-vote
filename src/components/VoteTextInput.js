@@ -26,13 +26,16 @@ export default class VoteTextInput extends Component {
 
   render() {
     return (
-      <input
+      <div className="form-group">
+        <input
         type="text"
+        className="form-control"
         placeholder={this.props.placeholder}
         autoFocus={true}
         value={this.state.text}
         onChange={this.handleChange}
         onKeyDown={this.handleSubmit} />
+      </div>
     );
   };
 };
