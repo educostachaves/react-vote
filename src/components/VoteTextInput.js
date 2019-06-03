@@ -28,13 +28,13 @@ export default class VoteTextInput extends Component {
     return (
       <div className="form-group">
         <input
-        type="text"
-        className="form-control"
-        placeholder={this.props.placeholder}
-        autoFocus={true}
-        value={this.state.text}
-        onChange={this.handleChange}
-        onKeyDown={this.handleSubmit} />
+          type="text"
+          className="form-control"
+          placeholder={this.props.placeholder}
+          autoFocus={true}
+          value={this.state.text}
+          onChange={this.handleChange}
+          onKeyDown={this.handleSubmit} />
       </div>
     );
   };

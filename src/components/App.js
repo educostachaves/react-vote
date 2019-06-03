@@ -5,7 +5,7 @@ import MainSection from '../containers/MainSection';
 const App = () => (
   <section className="container">
     <div className="row">
-      <div className="col-md-4">
+      <div className="col-md-4 mx-auto">
         <Header />
         <MainSection />
       </div>

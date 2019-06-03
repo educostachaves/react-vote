@@ -9,10 +9,10 @@ export default class VoteItem extends Component {
   };
 
   render() {
-    const { vote, upVote, downVote } = this.props
+    const { vote, upVote, downVote } = this.props;
 
     let element = (
-      <div class="card sm-12 shadow-sm">
+      <div class="card sm-12 shadow-sm m-1">
         <div class="card-body">
           <p class="card-text">{vote.text}</p>
           <div class="d-flex justify-content-between align-items-center">
